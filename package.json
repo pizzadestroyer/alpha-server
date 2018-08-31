@@ -1,0 +1,19 @@
+{
+  "name": "alpha-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "nodemon ./src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^3.0.0",
+    "nodemon": "^1.18.3",
+    "rsmq": "^0.9.2",
+    "socket.io": "^2.1.1",
+    "three": "^0.95.0"
+  }
+}
